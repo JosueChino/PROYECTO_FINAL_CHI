@@ -1,0 +1,35 @@
+*{
+    margin: 3px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .sneaker-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  .sneaker-image {
+    width: 100%;
+    height: auto;
+  }
+  .sneaker-name {
+    font-weight: bold;
+  }
+  .sneaker-price {
+    color: #555;
+  }
+  .discount-tag {
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }

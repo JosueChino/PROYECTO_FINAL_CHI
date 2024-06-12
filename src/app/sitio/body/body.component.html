@@ -1,0 +1,94 @@
+<!--ESTO ES EL REGISTRO Y INICIO SESION-->
+
+<div class="fondo1"> 
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Iniciar Sesion
+  </button>
+  
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+   <!--FORMULARIO-->
+<div class="login-container">
+    <h2>INGRESA A TU CUENTA</h2>
+    <form>
+      <input type="text" placeholder="Correo" required>
+      <input type="password" placeholder="Contraseña" required>
+      <div class="checkbox">
+        <input type="checkbox" id="stay-logged">
+        <label for="stay-logged">Mantenerme Conectado</label>
+      </div>
+      <button type="submit" class="login-btn">INICIAR SESIÓN</button>
+      <button type="button" class="social-btn">INICIAR SESIÓN CON FACEBOOK</button>
+    </form>
+    <div class="register">
+      <p>¿No eres miembro? <a href="#">Regístrate ahora</a></p>
+    </div>
+</div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--2 FORMULARIO DE REGISTRO-->
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Registrarse</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Crear una Cuenta</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="body2">
+
+            <div class="registro-container">
+              <h2></h2>
+              <form>
+                <input type="text" placeholder="Nombres" required>
+                <input type="text" placeholder="Apellidos" required>
+                <input type="text" placeholder="Tipo de documento" required>
+                <input type="text" placeholder="Número de documento" required>
+                <input type="text" placeholder="Correo electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Confirmar contraseña" required>
+                <button type="submit">Registrarse</button>
+              </form>
+            </div>
+            
+            </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
